@@ -1,5 +1,7 @@
 # Scissors paper rock
 
+
+
 ## Project Goals 
 Make the classic scissors, paper, rock game to users who plays be themselves.
 
@@ -36,6 +38,9 @@ The font used is Caveat cursive.
 * The page has a user-friendly structure.
 
 ### Wireframes
+<img src="/assets/images/readme/wirestart.png" alt="Wireframe start">
+<img src="/assets/images/readme/wiregame.png" alt="Wireframe game">
+
 
 ## Technologies Used
 
@@ -60,14 +65,18 @@ Upon arriving at the website the user sees a screen with the the name of the gam
 
 * HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+<img src="/assets/images/readme/htmlvalid.png" alt="HTML validation test">
 
 * CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. When validating the page as a whole, the validator shows some errors linked to Bootstrap v5.0. When validating just my custom CSS it passes with no errors.
+<img src="/assets/images/readme/cssvalid.png" alt="Css validation test">
 
 * JavaScript Validation
+  
 
 ## Accessibility
 <img src="/assets/images/readme/accessibility.png" alt="Accessibility test">
+
 ## Performance
 * Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
 
