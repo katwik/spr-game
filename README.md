@@ -1,39 +1,108 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Scissors paper rock
 
-Welcome,
+##Project Goals
+Make the classic scissors, paper, rock game to users who plays be themselves.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+###User Goals
+*Play a fun game.
+###Site Owner Goals
+*Create a game that that is fun and engaging.
+*The game is responsive so it can be played on different devices.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+###Target Audience
+*People who likes chanse games
+*Those who are looking for a easy game
 
-## Codeanywhere Reminders
+##User Stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+*As a user, I want to see animation simular to thereal game
+*As a user, I want to pick my own option
+*As a user, I want to be able to see the scores
+*Users want to play a game that functions and flows correctly
+*Users want a pleasant visual experience, with easy readability
 
-`python3 -m http.server`
+###Site Owner Stories
+As a site owner, I want people to have fun plaing the game.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+##Design Choices
+The game was designed to have a satisfying effect on the user.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+###Color
 
-`http_server`
+###Fonts
+The font used is Caveat cursive.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+##The Structure
+*The page has a user-friendly structure.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+###Wireframes
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+##Technologies Used
 
-To log into the Heroku toolbelt CLI:
+###Languages
+*HTML
+*CSS
+*JavaScript
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+###Frameworks & Tools
+*GitHub
+*Balsamiq
+*Font Awesome
+*Lighthouse
+*W3C Markup validation service
+*W3C Jigsaw CSS validation service
+*WAVE WebAIM web accessibility evaluation tool
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+##Features
+Upon arriving at the website the user sees a screen with the the name of the game, score table for the player and the computer, and a ’Click to start!’-button. When pressed, two hands are seen in the middle of the screen and the text ’Pick your option over it, and three buttons under it with the avaliable options (scissors, paper, rock).
 
----
+##Validation
 
-Happy coding!
+*HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+
+*CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. When validating the page as a whole, the validator shows some errors linked to Bootstrap v5.0. When validating just my custom CSS it passes with no errors.
+
+*JavaScript Validation
+
+
+##Accessibility
+
+##Performance
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+
+Browser Compatability
+
+##Testing user stories
+
+##Bugs
+
+##Deployment
+The website was deployed using GitHub Pages by following these steps:
+* In the GitHub repository navigate to the Settings tab
+* On the left-hand menu select Pages
+* For the source select Branch: master
+* After the webpage refreshes automatically you will ses a ribbon on the top saying: "Your site is published at
+
+###You can fork the repository by following these steps:
+* Go to the GitHub repository
+*Click on Fork button in the upper right hand corner
+
+###You can clone the repository by following these steps:
+* Go to the GitHub repository
+* Locate the Code button above the list of files and click it
+* Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+* Open Git Bash
+* Change the current working directory to the one where you want the cloned directory
+* Type git clone and paste the URL from the clipboard 
+* Press Enter to create your local clone.
+
+##Credits
+
+###Media
+
+###Code
+
+##Acknowledgments
+I would like to take the opportunity to thank:
