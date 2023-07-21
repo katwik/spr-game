@@ -114,7 +114,7 @@ The website was deployed using GitHub Pages by following these steps:
 
 * In the GitHub repository navigate to the Settings tab
 * On the left-hand menu select Pages
-* For the source select Branch: master
+* For the source select Branch: main
 * After the webpage refreshes automatically you will ses a ribbon on the top saying: "Your site is published at
 
 ### You can fork the repository by following these steps

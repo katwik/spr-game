@@ -171,3 +171,13 @@ div.fadeIn {
 }
 
 /* Media queries */
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+
+    .options {
+        size: 40vh;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
