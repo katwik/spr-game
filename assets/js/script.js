@@ -4,22 +4,22 @@ let cScore = 0;
 
 //Start game
 const startGame = () => {
-    const playBtn = document.querySelector(".start button");
-    const introScreen = document.querySelector(".start");
-    const match = document.querySelector(".match");
+    let playBtn = document.querySelector(".start button");
+    let startScreen = document.querySelector(".start");
+    let match = document.querySelector(".match");
 
     playBtn.addEventListener("click", () => {
-        introScreen.classList.add("fadeOut");
+        startScreen.classList.add("fadeOut");
         match.classList.add("fadeIn");
     });
 };
 
 //Play Match
-const playMatch = () => {
-    const options = document.querySelectorAll(".options button");
-    const playerHand = document.querySelector(".player-hand");
-    const computerHand = document.querySelector(".computer-hand");
-    const hands = document.querySelectorAll(".hands img");
+const playGame = () => {
+    let options = document.querySelectorAll(".options button");
+    let playerHand = document.querySelector(".player-hand");
+    let computerHand = document.querySelector(".computer-hand");
+    let hands = document.querySelectorAll(".hands img");
 
     hands.forEach(hand => {
         hand.addEventListener("animationend", function () {
@@ -27,13 +27,13 @@ const playMatch = () => {
         });
     });
     //Computer Options
-    const computerOptions = ["rock", "paper", "scissors"];
+    let computerOptions = ["rock", "paper", "scissors"];
 
     options.forEach(option => {
         option.addEventListener("click", function () {
             //Computer Choice
-            const computerNumber = Math.floor(Math.random() * 3);
-            const computerChoice = computerOptions[computerNumber];
+            let computerNumber = Math.floor(Math.random() * 3);
+            let computerChoice = computerOptions[computerNumber];
 
             setTimeout(() => {
                 //Compare hands
@@ -52,15 +52,15 @@ const playMatch = () => {
 
 
 const updateScore = () => {
-    const playerScore = document.querySelector(".player-score p");
-    const computerScore = document.querySelector(".computer-score p");
+    let playerScore = document.querySelector(".player-score p");
+    let computerScore = document.querySelector(".computer-score p");
     playerScore.textContent = pScore;
     computerScore.textContent = cScore;
 };
 
 
 const compareHands = (playerChoice, computerChoice) => {
-    const winner = document.querySelector(".winner");
+    let winner = document.querySelector(".winner");
 
     //Checking for a tie
     if (playerChoice === computerChoice) {
@@ -114,7 +114,7 @@ const compareHands = (playerChoice, computerChoice) => {
 
 function initializeGame() {
     startGame();
-    playMatch();
+    playGame();
 }
 
 window.addEventListener("DOMContentLoaded", initializeGame);

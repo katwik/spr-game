@@ -176,7 +176,10 @@ The website was deployed using GitHub Pages by following these steps:
 
 ## Credits
 
-Inspiration was taken from [Developed by Ed](https://developedbyed.com/) and his youtube-tutorial on how to create a rock paper scissors game. I changed and edited the code to make it my own. The images used was taken from his tutorial.
+* Inspiration was taken from [geeksforgeeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
+* w3 schools was used as references to check syntax for coding and for general queries
+* [Developed by Ed](https://www.youtube.com/watch?v=qWPtKtYEsN4) tutorial for creating rock paper scissors game
+* The images were taken from [Developed by Ed](https://developedbyed.com/)
 
 ## Acknowledgments
 
