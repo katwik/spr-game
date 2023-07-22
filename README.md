@@ -3,7 +3,8 @@ Developed by Katarina Wikström
 
 [Link to website](https://katwik.github.io/spr-game/)
 
-<img src="/assets/images/readme/.png" alt="Wireframe start">
+<img src="/assets/images/readme/responsivestart.png" alt="Responsive start">
+<img src="/assets/images/readme/responsivegame.png" alt="Responsive game">
 
 ## Project Goals
 
@@ -31,7 +32,8 @@ Make the classic scissors, paper, rock game to users who plays by themselves.
 
 ## Color and fonts
 
-The colors used are  The font used is Caveat cursive.
+The colors used are #95b7f8, #112c51 and #dfe1ea. The font used is Caveat cursive.
+<img src="/assets/images/readme/colorpallet.png" alt="Colorpallet">
 
 ## The Structure
 
@@ -42,29 +44,7 @@ The colors used are  The font used is Caveat cursive.
 <img src="/assets/images/readme/wirestart.png" alt="Wireframe start">
 <img src="/assets/images/readme/wiregame.png" alt="Wireframe game">
 
-## Technologies Used
-
-### Languages
-
-* HTML
-* CSS
-* JavaScript
-
-### Frameworks & Tools
-
-* CodeAnywhere
-* GitHub
-* Balsamiq
-* Font Awesome
-* Lighthouse
-* W3C Markup validation service
-* W3C Jigsaw CSS validation service
-* JSHint for JavaScript validation
-* WAVE WebAIM web accessibility evaluation tool
-* Multi Device Website Mockup Generator
-* ILoveIMG
-
-## Features
+### Features
 
 Upon arriving at the website the user sees a screen with the the name of the game, score table for the player and the computer, and a "Click to start!"-button. When pressed, two hands are seen in the middle of the screen and the text "Pick your option" over it, and three buttons under it with the avaliable options: scissors, paper, rock. The hand to the left is the player hand and the one to the right is the computer hand.
 <img src="/assets/images/readme/start.png" alt="Start page">
@@ -81,6 +61,29 @@ Upon arriving at the website the user sees a screen with the the name of the gam
 
 * Add a reset button
 * Add limited moves, the game ends when moves reaches the limit and results are displayed.
+
+
+## Technologies Used
+
+### Languages
+
+* HTML
+* CSS
+* JavaScript
+
+### Frameworks & Tools
+
+* GitHub
+* Balsamiq
+* Font Awesome
+* Lighthouse
+* W3C Markup validation service
+* W3C Jigsaw CSS validation service
+* JSHint for JavaScript validation
+* WAVE WebAIM web accessibility evaluation tool
+* Multi Device Website Mockup Generator
+* ILoveIMG
+* Coolors
 
 ## Validation
 
@@ -107,12 +110,13 @@ Accessibility for desktop
 
 Accesibility for mobile devices
 <img src="/assets/images/readme/maccessibility.png" alt="Accessibility mobile test">
- 
+
 ### Browser Compatability
 
 The website were tested with no remarks on theese browsers
 * Google Chrome
 * Microsoft Edge
+* Firefox
 
 ## Testing user stories
 
@@ -172,7 +176,6 @@ The website was deployed using GitHub Pages by following these steps:
 ## Credits
 
 Inspiration was taken from [Developed by Ed](https://developedbyed.com/) and his youtube-tutorial on how to create a rock paper scissors game. I changed and edited the code to make it my own. The images used was taken from his tutorial.
-
 
 ## Acknowledgments
 
