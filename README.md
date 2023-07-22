@@ -59,7 +59,7 @@ The font used is Caveat cursive.
 
 ## Features
 
-Upon arriving at the website the user sees a screen with the the name of the game, score table for the player and the computer, and a "Click to start!"-button. When pressed, two hands are seen in the middle of the screen and the text "Pick your option" over it, and three buttons under it with the avaliable options: scissors, paper, rock.
+Upon arriving at the website the user sees a screen with the the name of the game, score table for the player and the computer, and a "Click to start!"-button. When pressed, two hands are seen in the middle of the screen and the text "Pick your option" over it, and three buttons under it with the avaliable options: scissors, paper, rock. The hand to the left is the player hand and the one to the right is the computer hand.
 <img src="/assets/images/readme/start.png" alt="Start page">
 
 <img src="/assets/images/readme/game.png" alt="Game page">
@@ -104,6 +104,8 @@ Accesibility for mobile devices:
 ### Browser Compatability
 
 The website were tested with no remarks on theese browsers 
+* Google Chrome
+* Microsoft Edge
 
 ## Testing user stories
 
@@ -113,6 +115,18 @@ As a user, I want  | Result
  to pick my own option  | The user can pick an option
  to be able to see the scores  | The scores are shown and visible
 to play a game that functions and flows correctly  | The game is functional and flows correctly
+
+## Manual testing
+
+Feature  | Expect | Action  | Result
+------------- | -------------   ------------- | -------------
+Click to start  | When pressed the game page appears  | Clicked the "Click to start"-button    | Game commence and score table, options and hand are shown
+Click scissors-button  | Player hand shakes and changes to scissor  | Clicked "scissors"-button  | Player hand shakes and changes to scissor
+Click paper-button  | Player hand shakes and changes to paper  | Clicked "paper"-button  | Player hand shakes and changes to paper
+When player click on one option, the computer hand makes a pick  | Computer hand shakes and changes to an option randomly picked  | Clicked "scissors"-button, Clicked "paper"-button, Clicked "paper"-button   | Computer hand shakes and changes to a random option
+The score table  | The scores uppdates after every round | Clicked "paper"-button   | The scores upptates with one point after every round; one point to the winner and no point to the opponent
+It's a tie  | The scores uppdates after every round | Clicked "paper"-button   | The scores upptates with one point after every round; one point to the winner and no point to the opponent
+
 
 ## Bugs
 No bugs were found during my testings.

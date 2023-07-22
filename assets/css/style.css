@@ -6,11 +6,11 @@
 
 body {
     font-family: "Caveat", cursive;
-    background-color: rgb(149, 183, 248);
+    background-color: #95b7f8;
 }
 
 .score {
-    color: rgb(17, 44, 81);
+    color: #112c51;
     height: 20vh;
     display: flex;
     justify-content: space-around;
@@ -28,7 +28,7 @@ body {
 }
 
 .start {
-    color: rgb(17, 44, 81);
+    color: #112c51;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -47,9 +47,9 @@ body {
     height: 50px;
     background: none;
     border: none;
-    color: rgb(223, 225, 234);
+    color: #dfe1ea;
     font-size: 20px;
-    background: rgb(17, 44, 81);
+    background: #112c51;
     border-radius: 3px;
     cursor: pointer;
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .winner {
-    color: rgb(17, 44, 81);
+    color: #112c51;
     text-align: center;
     font-size: 50px;
 }
@@ -72,12 +72,19 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20%;
+    margin-top: 10%;
 }
 
 .options {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.paper {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .player-hand {
@@ -94,6 +101,7 @@ div.fadeIn {
     pointer-events: all;
 }
 
+/* The animation that makes the player hand move */
 @keyframes shakePlayer {
     0% {
         transform: rotateY(180deg) translateY(0px);
@@ -131,6 +139,8 @@ div.fadeIn {
         transform: rotateY(180deg) translateY(0px);
     }
 }
+
+/* The animation that makes the computer hand move */
 
 @keyframes shakeComputer {
     0% {
@@ -171,13 +181,46 @@ div.fadeIn {
 }
 
 /* Media queries */
+
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
+
+    body {
+        margin-right: 10%;
+    }
+
+    .score {
+        margin-bottom: 10%;
+    }
+
+    .hands {
+        size: 50%;
+
+    }
+
+    .player-hand {
+        margin-left: 15%;
+    }
+
+    .computer-hand {
+        margin-right: 10%;
+
+    }
+
+    .winner {
+        margin-top: 10%;
+    }
 
     .options {
         size: 40vh;
         flex-direction: column;
         align-items: center;
+
+    }
+
+    .paper {
+        margin-top: 5%;
+        margin-bottom: 5%;
 
     }
 }
