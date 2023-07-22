@@ -107,7 +107,7 @@ JSHint was used to validate the Javascript of the website and it passed with no 
   After the first test the performance was on the lower end of the green side, but after compressing the images I got theese results down below.
   
     * Accessibility for desktop
-<img src="/assets/images/readme/accessibility.png" alt="Accessibility test">
+<img src="/assets/images/readme/accesibility.png" alt="Accessibility test">
 
     * Accesibility for mobile devices
 <img src="/assets/images/readme/maccessibility.png" alt="Accessibility mobile test">
@@ -131,7 +131,7 @@ to play a game that functions and flows correctly  | The game is functional and 
 ## Manual testing
 
 Feature  | Expect | Action  | Result
-------------- | -------------   ------------- | -------------
+------------- | ------------- |  ------------- | -------------
 Click to start  | When pressed the game area appears  | Clicked the "Click to start"-button    | Game commence and score table, options and hand are shown
 Click scissors-button  | Player hand shakes and changes to scissor  | Clicked "scissors"-button  | Player hand shakes and changes to scissor
 Click paper-button  | Player hand shakes and changes to paper  | Clicked "paper"-button  | Player hand shakes and changes to paper
@@ -181,3 +181,4 @@ Inspiration was taken from [Developed by Ed](https://developedbyed.com/) and his
 ## Acknowledgments
 
 I would like to take the opportunity to thank my mentor Rohit Sharma for the help and support he provided during this project.
+
