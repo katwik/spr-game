@@ -109,7 +109,7 @@ JSHint was used to validate the Javascript of the website and it passed with no 
     * Accessibility for desktop
 <img src="/assets/images/readme/accesibility.png" alt="Accessibility test">
 
-    * Accesibility for mobile devices
+   * Accesibility for mobile devices
 <img src="/assets/images/readme/maccessibility.png" alt="Accessibility mobile test">
 
 ### Browser Compatability
@@ -132,10 +132,10 @@ to play a game that functions and flows correctly  | The game is functional and 
 
 Feature  | Expect | Action  | Result
 ------------- | ------------- |  ------------- | -------------
-Click to start  | When pressed the game area appears  | Clicked the "Click to start"-button    | Game commence and score table, options and hand are shown
+Click to start  | When pressed the game area appears  | Clicked the "Click to start"-button    | Game commence and score table, options and hands are shown
 Click scissors-button  | Player hand shakes and changes to scissor  | Clicked "scissors"-button  | Player hand shakes and changes to scissor
 Click paper-button  | Player hand shakes and changes to paper  | Clicked "paper"-button  | Player hand shakes and changes to paper
-When player click on one option, the computer hand makes a pick  | Computer hand shakes and changes to an option randomly picked  | Clicked "scissors"-button, Clicked "paper"-button, Clicked "paper"-button   | Computer hand shakes and changes to a random option
+The computer hand makes a pick  | Computer hand shakes and changes to an option randomly picked  | Clicked "scissors"-button, Clicked "paper"-button, Clicked "rock"-button   | Computer hand shakes and changes to a random option
 The score table  | The scores uppdates after every round | Clicked "paper"-button   | The scores upptates with one point after every round; one point to the winner and no point to the opponent
 It's a tie  | The scores do not uppdate | Reached a tie   | No points added to the score table
 
