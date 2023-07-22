@@ -9,6 +9,7 @@ body {
     background-color: #95b7f8;
 }
 
+/* The score table */
 .score {
     color: #112c51;
     height: 20vh;
@@ -27,6 +28,8 @@ body {
     font-size: 25px;
 }
 
+/* The start page */
+
 .start {
     color: #112c51;
     height: 50vh;
@@ -41,6 +44,8 @@ body {
     font-size: 50px;
 }
 
+/* Styles for the buttons */
+
 .start button,
 .match button {
     width: 150px;
@@ -54,6 +59,7 @@ body {
     cursor: pointer;
 }
 
+/* Styling for the compare hands*/
 .match {
     position: absolute;
     top: 50%;
@@ -91,6 +97,7 @@ body {
     transform: rotateY(180deg);
 }
 
+/* Styles for fade in and fade out */
 div.fadeOut {
     opacity: 0;
     pointer-events: none;

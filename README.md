@@ -1,6 +1,9 @@
 # Scissors paper rock
+Developed by Katarina Wikström
 
 [Link to website](https://katwik.github.io/spr-game/)
+
+<img src="/assets/images/readme/.png" alt="Wireframe start">
 
 ## Project Goals
 
@@ -28,7 +31,7 @@ Make the classic scissors, paper, rock game to users who plays by themselves.
 
 ## Color and fonts
 
-The font used is Caveat cursive.
+The colors used are  The font used is Caveat cursive.
 
 ## The Structure
 
@@ -49,13 +52,17 @@ The font used is Caveat cursive.
 
 ### Frameworks & Tools
 
+* CodeAnywhere
 * GitHub
 * Balsamiq
 * Font Awesome
 * Lighthouse
 * W3C Markup validation service
 * W3C Jigsaw CSS validation service
+* JSHint for JavaScript validation
 * WAVE WebAIM web accessibility evaluation tool
+* Multi Device Website Mockup Generator
+* ILoveIMG
 
 ## Features
 
@@ -95,15 +102,15 @@ JSHint was used to validate the Javascript of the website and it passed with no 
 * Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
   After the first test the performance was on the lower end of the green side, but after compressing the images I got theese results down below.
   
-Accessibility for desktop:
+Accessibility for desktop
 <img src="/assets/images/readme/accessibility.png" alt="Accessibility test">
 
-Accesibility for mobile devices:
-<img src="/assets/images/readme/maccessibility.png" alt="Accessibility test">
+Accesibility for mobile devices
+<img src="/assets/images/readme/maccessibility.png" alt="Accessibility mobile test">
  
 ### Browser Compatability
 
-The website were tested with no remarks on theese browsers 
+The website were tested with no remarks on theese browsers
 * Google Chrome
 * Microsoft Edge
 
@@ -120,16 +127,23 @@ to play a game that functions and flows correctly  | The game is functional and 
 
 Feature  | Expect | Action  | Result
 ------------- | -------------   ------------- | -------------
-Click to start  | When pressed the game page appears  | Clicked the "Click to start"-button    | Game commence and score table, options and hand are shown
+Click to start  | When pressed the game area appears  | Clicked the "Click to start"-button    | Game commence and score table, options and hand are shown
 Click scissors-button  | Player hand shakes and changes to scissor  | Clicked "scissors"-button  | Player hand shakes and changes to scissor
 Click paper-button  | Player hand shakes and changes to paper  | Clicked "paper"-button  | Player hand shakes and changes to paper
 When player click on one option, the computer hand makes a pick  | Computer hand shakes and changes to an option randomly picked  | Clicked "scissors"-button, Clicked "paper"-button, Clicked "paper"-button   | Computer hand shakes and changes to a random option
 The score table  | The scores uppdates after every round | Clicked "paper"-button   | The scores upptates with one point after every round; one point to the winner and no point to the opponent
-It's a tie  | The scores uppdates after every round | Clicked "paper"-button   | The scores upptates with one point after every round; one point to the winner and no point to the opponent
-
+It's a tie  | The scores do not uppdate | Reached a tie   | No points added to the score table
 
 ## Bugs
-No bugs were found during my testings.
+
+The website did not load properly due to the image sizes. Website was not responsive on mobile devices; all content in the game area couldn't be seen.
+
+Bug  | Fix
+------------- | -------------
+The image files was to big  | Compressed the imgages
+The image sizes was to big  | Reduced the image sizes by cropping them
+Player and computer hands  | Added rules to the media queries in the css-file. Reduced the size of the images and added margin-left to player hand and margin-right to computer hand
+Option-buttons  | Added rules to the media queries in the css-file. Reduced the size of the buttons and set the flex-direction value to column
 
 ## Deployment
 
@@ -149,12 +163,15 @@ The website was deployed using GitHub Pages by following these steps:
 
 * Go to the GitHub repository
 * Locate the Code button above the list of files and click it
-* Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your 
+* Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+* Open Git Bash
+* Change the current working directory to the one where you want the cloned directory
+* Type git clone and paste the URL from the clipboard ($ git clone <https://github.com/YOUR-USERNAME/YOUR-REPOSITORY>)
+* Press Enter to create your local clone.
 
 ## Credits
 
-### Code
-Inspiration was taken from Developed by Ed on developedbyed.com
+Inspiration was taken from [Developed by Ed](https://developedbyed.com/) and his youtube-tutorial on how to create a rock paper scissors game. I changed and edited the code to make it my own. The images used was taken from his tutorial.
 
 
 ## Acknowledgments
