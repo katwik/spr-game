@@ -84,6 +84,7 @@ Upon arriving at the website the user sees a screen with the the name of the gam
 * Multi Device Website Mockup Generator
 * ILoveIMG
 * Coolors
+* Favicon
 
 ## Validation
 
@@ -105,10 +106,10 @@ JSHint was used to validate the Javascript of the website and it passed with no 
 * Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
   After the first test the performance was on the lower end of the green side, but after compressing the images I got theese results down below.
   
-Accessibility for desktop
+    * Accessibility for desktop
 <img src="/assets/images/readme/accessibility.png" alt="Accessibility test">
 
-Accesibility for mobile devices
+    * Accesibility for mobile devices
 <img src="/assets/images/readme/maccessibility.png" alt="Accessibility mobile test">
 
 ### Browser Compatability
